@@ -1,2 +1,2 @@
 # basiccalculator
-basic calculator
+basic calculator...basic calculating functions (addition, subtraction, division, multiplication)
