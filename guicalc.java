@@ -2,6 +2,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+//This program is a basic calculator (addition, subtraction, division, multiplication)
+
+//Program layout
 public class guicalc extends JFrame implements ActionListener {
     private JTextField textField;
     private double num1 = 0, num2 = 0;
@@ -39,7 +42,9 @@ public class guicalc extends JFrame implements ActionListener {
         add(panel, BorderLayout.CENTER);
         setVisible(true);
     }
-
+    
+//Program functionality
+    
     public void actionPerformed(ActionEvent e) {
         String input = ((JButton)e.getSource()).getText();
 
